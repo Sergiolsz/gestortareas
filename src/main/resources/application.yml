@@ -1,0 +1,21 @@
+# Configuración general de Spring Boot
+spring:
+  application:
+    name: gestor-tareas
+
+  # Configuración de la base de datos MongoDB
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/manager-tasks
+
+  # Configuración del servidor web
+  web:
+    servlet:
+      context-path: /api
+    port: 8080
+
+  # Configuración de logging
+  logging:
+    level:
+      root: INFO
+      org.springframework.web: DEBUG
