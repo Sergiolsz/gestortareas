@@ -76,9 +76,9 @@ http://localhost:8080/api/swagger-ui.html
 
 La aplicación expone los siguientes endpoints:
 
-POST /tasks: Crea una nueva tarea.
-GET /tasks: Obtiene la lista de todas las tareas.
-GET /tasks/{id}: Obtiene una tarea por su ID.
+- POST /tasks: Crea una nueva tarea.
+- GET /tasks: Obtiene la lista de todas las tareas.
+- GET /tasks/{id}: Obtiene una tarea por su ID.
 
 ## Testing
 Para ejecutar las pruebas unitarias, utiliza el comando:
